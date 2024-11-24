@@ -1,15 +1,23 @@
 body {
 	padding:0px;
-	background-color:#eee;
-	color:#654520;
+	background-color:#ECDFCC;
+	color:#543310;
 	font-size:2rem;
+	font-family:"Nunito", sans-serif;
 }
 
 body * {
 	box-sizing:border-box;
 }
 
+.wrapper {
+	min-height:100%;
+	display: flex;
+	flex-direction: column;
+}
+
 #mainContent {
+	flex:1;
 	margin: 5vw 10vw 0px 10vw;
 }
 
@@ -33,7 +41,7 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2vmin;
   grid-row-gap: 2vmin;
-  background-color: rgba(37, 25, 4, 0.39);
+  background-color: #543310;
   padding: 2vmin;
   font-size: 1.5rem;
   border-radius: 1vmin;
@@ -43,14 +51,14 @@ h4 {
   display: flex;
   flex-direction: column;
   padding: 1.5vmin;
-  color: #eee;
+  color: #ECDFCC;
   border-radius: 1vmin;
   height: 100%;
   transition: transform 0.3s ease-in-out;
 }
 
 .contentItem:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 .headerImageContainer {
@@ -71,19 +79,47 @@ h4 {
 }
 
 #siteFooter {
-  background-color: #654520;
+  background-color: #543310;
   padding: 6rem;
   text-align: center;
-  margin-top: 5rem;
 }
 
 #siteFooter p {
   margin: 0;
-  color: #fff;
+  color: #ECDFCC;
   font-size: 1.5rem;
 }
 
 #siteFooter a {
-  color: #fff;
+  color: #ECDFCC;
   text-decoration: underline;
+}
+
+.animalPage {
+	margin:5vw 10vw;
+	text-align:center;
+}
+
+.animalPage .hero {
+	display:block;
+	margin: 0 auto;
+	height:400px;
+	width:auto;
+	object-fit:cover;
+	border-radius:2vmin;
+	margin-bottom:3vim;
+}
+
+.backButtonDiv {
+	text-align:center;
+	margin-top:20px;
+}
+
+.backButton {
+	display:inline-block;
+	padding:10px 20px;
+	background-color: #654520;
+	color:#eee;
+	text-decoration:none;
+	border-radius:2vmin;
 }
