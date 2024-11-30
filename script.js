@@ -45,7 +45,7 @@ let jsonDatabase = [
 		"habitat_color" : "#78B3CE", //green
 		"population" : "less than 20,000 left",
 		"id" : "hawksbillturtle",
-		"description":"Hawksbill turtles are mostly found in coral reefs. One reason why they are critically endangered is because their patterned shels are seen as highly valuable and are sold in illegal markets. Fun fact: they are 90-150 pounds and 30-35 inches long.",
+		"description":"Hawksbill turtles are mostly found in coral reefs. One reason why they are critically endangered is because their patterned shells are seen as highly valuable and are sold in illegal markets. Fun fact: they are 90-150 pounds and 30-35 inches long.",
 		"additional_pic_url":"https://miro.medium.com/v2/resize:fit:1200/1*pwsGZCtWClR4KXk9yY1dew.png"
 	},
 	{
